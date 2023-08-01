@@ -8,7 +8,8 @@
 <body>
     <p>task 1</p>
     <?php
-   phpinfo();
+   phpinfo(1);
+   phpinfo(4);
    ?>
    <p>task 2</p>
    <?php
@@ -63,6 +64,7 @@ echo $text;
      <?php
        header('Location: https://www.w3resource.com/');
 ?>
+
 
 
 </body>
